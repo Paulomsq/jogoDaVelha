@@ -37,12 +37,6 @@ function reset (){
     msg = '';
     let aleatorio = Math.floor(Math.random() * 2);
     vez = (aleatorio === 0) ? 'x' : 'o';
-    
-    /*if(aleatorio === 0){
-        vez = 'X';
-    }else{
-        vez = 'O'
-    }*/
 
     for(let i in quadro){
         quadro[i] = '';
